@@ -79,11 +79,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                                                       &tmux1     &tmux2               &tmux3         &tmux4            &trans  &trans
-&kp TAB         &trans  &trans  &trans     &trans    &trans                                                       &kp Y      &kp LS(APOS)         &kp LS(EQUAL)  &trans            &kp P   &trans
-&kp CAPS        &trans  &trans  &trans     &trans    &trans                                                       &kp LEFT   &kp DOWN             &kp UP         &kp RIGHT         &trans  &kp PAGE_UP
-&kp LEFT_SHIFT  &trans  &trans  &trans     &trans    &trans        &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp LS(I)  &mt N0 LS(NUMBER_6)  &g_            &mt DOLLAR LS(A)  &trans  &kp PAGE_DOWN
-                                &kp LCTRL  &kp LALT  &kp LEFT_GUI  &kp SPACE               &kp RET                &kp BSPC   &kp LEFT_ALT         &kp LEFT_GUI
+&kp F1          &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                                                           &tmux1     &tmux2               &tmux3         &tmux4            &trans  &trans
+&kp TAB         &trans  &trans  &trans     &trans    &trans                                                           &kp Y      &kp LS(APOS)         &kp LS(EQUAL)  &trans            &kp P   &trans
+&kp CAPS        &trans  &trans  &trans     &trans    &kp LEFT_CONTROL                                                 &kp LEFT   &kp DOWN             &kp UP         &kp RIGHT         &trans  &kp PAGE_UP
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans    &trans            &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp LS(I)  &mt N0 LS(NUMBER_6)  &g_            &mt DOLLAR LS(A)  &trans  &kp PAGE_DOWN
+                                &kp LCTRL  &kp LALT  &kp LEFT_GUI      &kp SPACE               &kp RET                &kp BSPC   &kp LEFT_ALT         &kp LEFT_GUI
             >;
         };
 
