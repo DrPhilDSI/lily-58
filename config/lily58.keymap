@@ -90,10 +90,20 @@
         Symbols {
             bindings = <
 &kp F1     &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                            &kp F7     &kp F8      &kp F9  &kp F10  &kp F11   &kp F12
-&kp TAB    &trans  &trans  &trans     &trans    &trans                            &kp EQUAL  &kp LS(N8)  &trans  &trans   &trans    &trans
+&kp TAB    &trans  &trans  &trans     &trans    &tog 0                            &kp EQUAL  &kp LS(N8)  &trans  &trans   &trans    &trans
 &kp CAPS   &trans  &trans  &trans     &trans    &trans                            &kp PLUS   &trans      &trans  &trans   &kp SEMI  &trans
-&kp LSHFT  &trans  &trans  &trans     &trans    &trans    &kp LBKT     &kp RBKT   &kp MINUS  &trans      &trans  &trans   &trans    &trans
+&kp LSHFT  &trans  &trans  &trans     &trans    &tog 3    &kp LBKT     &kp RBKT   &kp MINUS  &trans      &trans  &trans   &trans    &trans
                            &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE    &kp ENTER  &kp BSPC   &trans      &trans
+            >;
+        };
+
+        Dvorak {
+            bindings = <
+&kp GRAVE  &kp N1    &kp N2     &kp N3     &kp N4    &kp N5                            &kp N6    &kp N7    &kp N8    &kp N9  &kp N0  &kp EQUAL
+&kp TAB    &kp APOS  &kp COMMA  &kp DOT    &kp P     &kp Y                             &kp F     &kp G     &kp C     &kp R   &kp L   &kp FSLH
+&kp CAPS   &kp A     &kp O      &lt 1 E    &lt 2 U   &kp I                             &kp D     &kp H     &kp T     &kp N   &kp S   &kp MINUS
+&kp LSHFT  &kp SEMI  &kp Q      &kp J      &kp K     &kp X     &kp LBKT     &kp RBKT   &kp B     &kp M     &kp W     &kp V   &kp Z   &kp RSHFT
+                                &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE    &kp ENTER  &kp BSPC  &kp RGUI  &kp RALT
             >;
         };
     };
