@@ -90,10 +90,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                                                           &tmux1     &tmux2               &tmux3        &tmux4            &none  &none
-&kp TAB         &none   &none   &none      &none     &none                                                            &kp Y      &kp LS(EQUAL)        &kp LS(APOS)  &kp P             &none  &none
-&kp CAPS        &none   &none   &none      &none     &kp LEFT_CONTROL                                                 &kp LEFT   &kp DOWN             &kp UP        &kp RIGHT         &none  &kp PAGE_UP
-&kp LEFT_SHIFT  &none   &none   &none      &none     &none             &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp LS(I)  &mt N0 LS(NUMBER_6)  &g_           &mt DOLLAR LS(A)  &none  &kp PAGE_DOWN
+&kp F1          &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                                                           &tmux1     &tmux2               &tmux3        &tmux4            &kp MINUS  &kp EQUAL
+&kp TAB         &none   &none   &none      &none     &none                                                            &kp Y      &kp LS(EQUAL)        &kp LS(APOS)  &kp P             &none      &none
+&kp CAPS        &none   &none   &none      &none     &kp LEFT_CONTROL                                                 &kp LEFT   &kp DOWN             &kp UP        &kp RIGHT         &none      &kp PAGE_UP
+&kp LEFT_SHIFT  &none   &none   &none      &none     &none             &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp LS(I)  &mt N0 LS(NUMBER_6)  &g_           &mt DOLLAR LS(A)  &none      &kp PAGE_DOWN
                                 &kp LCTRL  &kp LALT  &kp LEFT_GUI      &kp SPACE               &kp RET                &kp BSPC   &kp LEFT_ALT         &kp LEFT_GUI
             >;
         };
